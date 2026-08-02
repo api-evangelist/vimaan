@@ -1,8 +1,26 @@
 aid: vimaan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vimaan.png
 name: Vimaan
-description: 'Vimaan is a company surfaced as a portfolio company of wing-venture-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: autonomous-apps. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Vimaan is an autonomous inventory intelligence company that combines
+  computer vision, machine learning, and autonomous drones and robotics to verify,
+  count, and audit inventory across warehouses, distribution centers, and supply-chain
+  operations. It was surfaced as a portfolio company of wing-venture-capital and added
+  to the API Evangelist network. As of this enrichment pass Vimaan publishes no public
+  developer, API, SDK, or documentation surface: the corporate website (vimaan.ai)
+  sits entirely behind an sgcaptcha challenge wall and no developer, docs, or api
+  subdomains resolve. This profile therefore captures verified company identity and
+  domain-security posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/vimaan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Autonomous Apps
+- Computer Vision
+- Machine Learning
+- Inventory
+- Warehouse
+- Supply Chain
+- Robotics
+- Drones
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vimaan-domain-security.yml
 - type: Website
   url: https://vimaan.ai/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

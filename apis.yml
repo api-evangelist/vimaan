@@ -45,8 +45,8 @@ modified: '2026-07-21'
 tags:
 - Company
 - Autonomous Apps
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Inventory
 - Warehouse
 - Supply Chain
@@ -62,6 +62,8 @@ tags_raw:
 - Supply Chain
 - Robotics
 - Drones
+- Computer-Vision
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
